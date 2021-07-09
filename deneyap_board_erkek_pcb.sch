@@ -8,6 +8,57 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="no"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="no"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="no"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -22,6 +73,240 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
+<library name="deneyap_board_erkek_pcb_lib">
+<packages>
+<package name="PCB_BUTTON_MODULE">
+<wire x1="2" y1="0" x2="0" y2="2" width="0.127" layer="21" curve="-90"/>
+<wire x1="24" y1="0" x2="26" y2="2" width="0.127" layer="21" curve="90"/>
+<wire x1="26" y1="13" x2="24" y2="15" width="0.127" layer="21" curve="90"/>
+<wire x1="26" y1="13" x2="26" y2="2" width="0.127" layer="21"/>
+<wire x1="2" y1="0" x2="24" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="2" x2="0" y2="13" width="0.127" layer="21"/>
+<dimension x1="-2" y1="0" x2="-2" y2="15" x3="-14" y3="7.5" textsize="1.27" layer="21"/>
+<dimension x1="0" y1="-2" x2="26" y2="-2" x3="13" y3="-8" textsize="1.27" layer="21"/>
+<hole x="2" y="7.5" drill="3"/>
+<hole x="24" y="7.5" drill="3"/>
+<wire x1="0" y1="13" x2="2" y2="15" width="0.127" layer="21" curve="-90"/>
+<wire x1="2" y1="15" x2="24" y2="15" width="0.127" layer="21"/>
+<text x="6" y="1" size="1.27" layer="25">BUTTON_MODULE</text>
+<pad name="1" x="6.65" y="4.96" drill="0.8" shape="square"/>
+<pad name="4" x="6.65" y="10.04" drill="0.8"/>
+<pad name="2" x="19.35" y="4.96" drill="0.8"/>
+<pad name="3" x="19.35" y="10.04" drill="0.8"/>
+</package>
+<package name="PCB_DISI_CONNECTOR">
+<wire x1="2" y1="0" x2="0" y2="2" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="8" x2="2" y2="10" width="0.127" layer="21" curve="-90"/>
+<wire x1="33" y1="0" x2="35" y2="2" width="0.127" layer="21" curve="90"/>
+<wire x1="35" y1="8" x2="33" y2="10" width="0.127" layer="21" curve="90"/>
+<wire x1="2" y1="0" x2="33" y2="0" width="0.127" layer="21"/>
+<wire x1="35" y1="8" x2="35" y2="2" width="0.127" layer="21"/>
+<wire x1="33" y1="10" x2="2" y2="10" width="0.127" layer="21"/>
+<wire x1="0" y1="8" x2="0" y2="2" width="0.127" layer="21"/>
+<dimension x1="-7" y1="0" x2="-7" y2="10" x3="-9" y3="5" textsize="1.27" layer="21"/>
+<dimension x1="0" y1="11" x2="35" y2="11" x3="17.5" y3="16" textsize="1.27" layer="21"/>
+<hole x="2.5" y="5" drill="3"/>
+<hole x="32.5" y="5" drill="3"/>
+<pad name="1" x="12.42" y="3.73" drill="0.8" shape="square"/>
+<pad name="3" x="14.96" y="3.73" drill="0.8"/>
+<pad name="2" x="12.42" y="6.27" drill="0.8"/>
+<pad name="4" x="14.96" y="6.27" drill="0.8"/>
+<pad name="5" x="17.46" y="3.73" drill="0.8"/>
+<pad name="6" x="17.5" y="6.27" drill="0.8"/>
+<pad name="7" x="20.04" y="3.73" drill="0.8"/>
+<pad name="8" x="20.04" y="6.27" drill="0.8"/>
+<pad name="9" x="22.58" y="3.73" drill="0.8"/>
+<pad name="10" x="22.58" y="6.27" drill="0.8"/>
+<text x="5.5" y="4.5" size="0.8128" layer="25">DISI_CONN</text>
+<circle x="10" y="3.5" radius="0.5" width="0.127" layer="25"/>
+</package>
+<package name="PCB_ERKEK_CONNECTOR">
+<wire x1="0" y1="2" x2="2" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="2" x2="0" y2="4" width="0.127" layer="21"/>
+<wire x1="2" y1="0" x2="24" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="4" x2="2" y2="6" width="0.127" layer="21" curve="-90"/>
+<wire x1="2" y1="6" x2="24" y2="6" width="0.127" layer="21"/>
+<wire x1="24" y1="0" x2="26" y2="2" width="0.127" layer="21" curve="90"/>
+<wire x1="26" y1="4" x2="24" y2="6" width="0.127" layer="21" curve="90"/>
+<wire x1="26" y1="4" x2="26" y2="2" width="0.127" layer="21"/>
+<dimension x1="-2.54" y1="0" x2="-2.54" y2="6.35" x3="-2.54" y3="3.175" textsize="1.27" layer="21"/>
+<dimension x1="0" y1="8" x2="26" y2="8" x3="13" y3="10" textsize="1.27" layer="21"/>
+<hole x="2" y="3" drill="3"/>
+<hole x="24" y="3" drill="3"/>
+<pad name="DO" x="13" y="1.73" drill="0.8"/>
+<pad name="6" x="13" y="4.3" drill="0.8"/>
+<pad name="3.3" x="10.46" y="1.73" drill="0.8"/>
+<pad name="SDA" x="15.54" y="1.73" drill="0.8"/>
+<pad name="1" x="7.92" y="1.73" drill="0.8" shape="square"/>
+<pad name="9" x="18.08" y="1.73" drill="0.8"/>
+<pad name="2" x="7.92" y="4.3" drill="0.8"/>
+<pad name="4" x="10.46" y="4.3" drill="0.8"/>
+<pad name="8" x="15.54" y="4.3" drill="0.8"/>
+<pad name="10" x="18.08" y="4.3" drill="0.8"/>
+<dimension x1="2" y1="-2" x2="13" y2="-2" x3="7.5" y3="-7" textsize="1.27" layer="21"/>
+<circle x="5.08" y="1.27" radius="0.5" width="0.127" layer="21"/>
+<text x="3.81" y="3.81" size="0.4064" layer="21">PCB Module</text>
+</package>
+<package name="PCB_LDR_MODULE">
+<wire x1="2" y1="0" x2="0" y2="2" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="13" x2="2" y2="15" width="0.127" layer="21" curve="-90"/>
+<wire x1="24" y1="0" x2="26" y2="2" width="0.127" layer="21" curve="90"/>
+<wire x1="26" y1="13" x2="24" y2="15" width="0.127" layer="21" curve="90"/>
+<wire x1="2" y1="15" x2="24" y2="15" width="0.127" layer="21"/>
+<wire x1="26" y1="13" x2="26" y2="2" width="0.127" layer="21"/>
+<wire x1="2" y1="0" x2="24" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="2" x2="0" y2="13" width="0.127" layer="21"/>
+<dimension x1="-2" y1="0" x2="-2" y2="15" x3="-14" y3="7.5" textsize="1.27" layer="21"/>
+<dimension x1="0" y1="-2" x2="26" y2="-2" x3="13" y3="-8" textsize="1.27" layer="21"/>
+<hole x="2" y="7.5" drill="3"/>
+<hole x="24" y="7.5" drill="3"/>
+<pad name="1" x="11.73" y="7.5" drill="0.8" shape="square"/>
+<pad name="2" x="14.27" y="7.5" drill="0.8"/>
+<text x="7" y="4" size="1.27" layer="21">LDR_MODULE</text>
+<dimension x1="2" y1="10" x2="13" y2="10" x3="7.5" y3="18" textsize="1.27" layer="21" dtype="diameter"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PCB_BUTTON_MODULE">
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<pin name="1" x="-15.24" y="2.54" length="middle"/>
+<pin name="2" x="-15.24" y="-2.54" length="middle"/>
+<pin name="3" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="4" x="15.24" y="2.54" length="middle" rot="R180"/>
+<text x="-10.16" y="10.16" size="1.27" layer="95">PCB_BUTTON</text>
+</symbol>
+<symbol name="PCB_DISI_CONNECTOR">
+<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-15.24" x2="-7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-15.24" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<text x="-7.62" y="12.7" size="1.27" layer="95">PCB_DISI_CONN</text>
+<pin name="1" x="-12.7" y="7.62" length="middle"/>
+<pin name="2" x="-12.7" y="2.54" length="middle"/>
+<pin name="3" x="-12.7" y="-2.54" length="middle"/>
+<pin name="4" x="-12.7" y="-7.62" length="middle"/>
+<pin name="5" x="-12.7" y="-12.7" length="middle"/>
+<pin name="6" x="12.7" y="-12.7" length="middle" rot="R180"/>
+<pin name="7" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<pin name="8" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="9" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="10" x="12.7" y="7.62" length="middle" rot="R180"/>
+</symbol>
+<symbol name="PCB_ERKEK_CONNECTOR">
+<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-15.24" x2="-7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-15.24" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<pin name="1" x="-12.7" y="7.62" length="middle"/>
+<pin name="2" x="-12.7" y="2.54" length="middle"/>
+<pin name="3" x="-12.7" y="-2.54" length="middle"/>
+<pin name="4" x="-12.7" y="-7.62" length="middle"/>
+<pin name="5" x="-12.7" y="-12.7" length="middle"/>
+<pin name="6" x="12.7" y="-12.7" length="middle" rot="R180"/>
+<pin name="7" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<pin name="8" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="9" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="10" x="12.7" y="7.62" length="middle" rot="R180"/>
+<text x="-7.62" y="12.7" size="1.4224" layer="95">PCB_Erkek_con</text>
+</symbol>
+<symbol name="PCB_LDR_MODULE">
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<pin name="1" x="-10.16" y="0" length="middle"/>
+<pin name="2" x="10.16" y="0" length="middle" rot="R180"/>
+<text x="-2.54" y="2.54" size="0.8128" layer="95">LDR_Module</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PCB_BUTTON_MODULE">
+<gates>
+<gate name="G$1" symbol="PCB_BUTTON_MODULE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PCB_BUTTON_MODULE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PCB_DISI_CONNECTOR">
+<gates>
+<gate name="G$1" symbol="PCB_DISI_CONNECTOR" x="-7.62" y="7.62"/>
+</gates>
+<devices>
+<device name="A" package="PCB_DISI_CONNECTOR">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PCB_ERKEK_CONNECTOR">
+<gates>
+<gate name="G$1" symbol="PCB_ERKEK_CONNECTOR" x="0" y="17.78"/>
+</gates>
+<devices>
+<device name="A" package="PCB_ERKEK_CONNECTOR">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3.3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="DO"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="SDA"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PCB_LDR_MODULE">
+<gates>
+<gate name="G$1" symbol="PCB_LDR_MODULE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PCB_LDR_MODULE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -32,12 +317,20 @@
 </class>
 </classes>
 <parts>
+<part name="U$1" library="deneyap_board_erkek_pcb_lib" deviceset="PCB_BUTTON_MODULE" device=""/>
+<part name="U$2" library="deneyap_board_erkek_pcb_lib" deviceset="PCB_DISI_CONNECTOR" device="A"/>
+<part name="U$3" library="deneyap_board_erkek_pcb_lib" deviceset="PCB_ERKEK_CONNECTOR" device="A"/>
+<part name="U$4" library="deneyap_board_erkek_pcb_lib" deviceset="PCB_LDR_MODULE" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
+<instance part="U$1" gate="G$1" x="33.02" y="76.2" smashed="yes"/>
+<instance part="U$2" gate="G$1" x="68.58" y="76.2" smashed="yes"/>
+<instance part="U$3" gate="G$1" x="30.48" y="48.26" smashed="yes"/>
+<instance part="U$4" gate="G$1" x="71.12" y="50.8" smashed="yes"/>
 </instances>
 <busses>
 </busses>
