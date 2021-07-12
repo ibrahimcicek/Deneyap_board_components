@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -81,51 +81,6 @@
 <libraries>
 <library name="deneyap_board_erkek_pcb_lib">
 <packages>
-<package name="PCB_BUTTON_MODULE">
-<wire x1="2" y1="0" x2="0" y2="2" width="0.127" layer="21" curve="-90"/>
-<wire x1="24" y1="0" x2="26" y2="2" width="0.127" layer="21" curve="90"/>
-<wire x1="26" y1="13" x2="24" y2="15" width="0.127" layer="21" curve="90"/>
-<wire x1="26" y1="13" x2="26" y2="2" width="0.127" layer="21"/>
-<wire x1="2" y1="0" x2="24" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="2" x2="0" y2="13" width="0.127" layer="21"/>
-<dimension x1="-2" y1="0" x2="-2" y2="15" x3="-14" y3="7.5" textsize="1.27" layer="21"/>
-<dimension x1="0" y1="-2" x2="26" y2="-2" x3="13" y3="-8" textsize="1.27" layer="21"/>
-<hole x="2" y="7.5" drill="3"/>
-<hole x="24" y="7.5" drill="3"/>
-<wire x1="0" y1="13" x2="2" y2="15" width="0.127" layer="21" curve="-90"/>
-<wire x1="2" y1="15" x2="24" y2="15" width="0.127" layer="21"/>
-<text x="6" y="1" size="1.27" layer="25">BUTTON_MODULE</text>
-<pad name="1" x="6.65" y="4.96" drill="0.8" shape="square"/>
-<pad name="4" x="6.65" y="10.04" drill="0.8"/>
-<pad name="2" x="19.35" y="4.96" drill="0.8"/>
-<pad name="3" x="19.35" y="10.04" drill="0.8"/>
-</package>
-<package name="PCB_DISI_CONNECTOR">
-<wire x1="2" y1="0" x2="0" y2="2" width="0.127" layer="21" curve="-90"/>
-<wire x1="0" y1="8" x2="2" y2="10" width="0.127" layer="21" curve="-90"/>
-<wire x1="33" y1="0" x2="35" y2="2" width="0.127" layer="21" curve="90"/>
-<wire x1="35" y1="8" x2="33" y2="10" width="0.127" layer="21" curve="90"/>
-<wire x1="2" y1="0" x2="33" y2="0" width="0.127" layer="21"/>
-<wire x1="35" y1="8" x2="35" y2="2" width="0.127" layer="21"/>
-<wire x1="33" y1="10" x2="2" y2="10" width="0.127" layer="21"/>
-<wire x1="0" y1="8" x2="0" y2="2" width="0.127" layer="21"/>
-<dimension x1="-7" y1="0" x2="-7" y2="10" x3="-9" y3="5" textsize="1.27" layer="21"/>
-<dimension x1="0" y1="11" x2="35" y2="11" x3="17.5" y3="16" textsize="1.27" layer="21"/>
-<hole x="2.5" y="5" drill="3"/>
-<hole x="32.5" y="5" drill="3"/>
-<pad name="1" x="12.42" y="3.73" drill="0.8" shape="square"/>
-<pad name="3" x="14.96" y="3.73" drill="0.8"/>
-<pad name="2" x="12.42" y="6.27" drill="0.8"/>
-<pad name="4" x="14.96" y="6.27" drill="0.8"/>
-<pad name="5" x="17.46" y="3.73" drill="0.8"/>
-<pad name="6" x="17.5" y="6.27" drill="0.8"/>
-<pad name="7" x="20.04" y="3.73" drill="0.8"/>
-<pad name="8" x="20.04" y="6.27" drill="0.8"/>
-<pad name="9" x="22.58" y="3.73" drill="0.8"/>
-<pad name="10" x="22.58" y="6.27" drill="0.8"/>
-<text x="5.5" y="4.5" size="0.8128" layer="25">DISI_CONN</text>
-<circle x="10" y="3.5" radius="0.5" width="0.127" layer="25"/>
-</package>
 <package name="PCB_ERKEK_CONNECTOR">
 <wire x1="0" y1="2" x2="2" y2="0" width="0.127" layer="21" curve="90"/>
 <wire x1="0" y1="2" x2="0" y2="4" width="0.127" layer="21"/>
@@ -135,8 +90,6 @@
 <wire x1="24" y1="0" x2="26" y2="2" width="0.127" layer="21" curve="90"/>
 <wire x1="26" y1="4" x2="24" y2="6" width="0.127" layer="21" curve="90"/>
 <wire x1="26" y1="4" x2="26" y2="2" width="0.127" layer="21"/>
-<dimension x1="-2.54" y1="0" x2="-2.54" y2="6.35" x3="-2.54" y3="3.175" textsize="1.27" layer="21"/>
-<dimension x1="0" y1="8" x2="26" y2="8" x3="13" y3="10" textsize="1.27" layer="21"/>
 <hole x="2" y="3" drill="3"/>
 <hole x="24" y="3" drill="3"/>
 <pad name="DO" x="13" y="1.73" drill="0.8"/>
@@ -149,27 +102,9 @@
 <pad name="4" x="10.46" y="4.3" drill="0.8"/>
 <pad name="8" x="15.54" y="4.3" drill="0.8"/>
 <pad name="10" x="18.08" y="4.3" drill="0.8"/>
-<dimension x1="2" y1="-2" x2="13" y2="-2" x3="7.5" y3="-7" textsize="1.27" layer="21"/>
-<circle x="5.08" y="1.27" radius="0.5" width="0.127" layer="21"/>
-<text x="3.81" y="3.81" size="0.4064" layer="21">PCB Module</text>
-</package>
-<package name="PCB_LDR_MODULE">
-<wire x1="2" y1="0" x2="0" y2="2" width="0.127" layer="21" curve="-90"/>
-<wire x1="0" y1="13" x2="2" y2="15" width="0.127" layer="21" curve="-90"/>
-<wire x1="24" y1="0" x2="26" y2="2" width="0.127" layer="21" curve="90"/>
-<wire x1="26" y1="13" x2="24" y2="15" width="0.127" layer="21" curve="90"/>
-<wire x1="2" y1="15" x2="24" y2="15" width="0.127" layer="21"/>
-<wire x1="26" y1="13" x2="26" y2="2" width="0.127" layer="21"/>
-<wire x1="2" y1="0" x2="24" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="2" x2="0" y2="13" width="0.127" layer="21"/>
-<dimension x1="-2" y1="0" x2="-2" y2="15" x3="-14" y3="7.5" textsize="1.27" layer="21"/>
-<dimension x1="0" y1="-2" x2="26" y2="-2" x3="13" y3="-8" textsize="1.27" layer="21"/>
-<hole x="2" y="7.5" drill="3"/>
-<hole x="24" y="7.5" drill="3"/>
-<pad name="1" x="11.73" y="7.5" drill="0.8" shape="square"/>
-<pad name="2" x="14.27" y="7.5" drill="0.8"/>
-<text x="7" y="4" size="1.27" layer="21">LDR_MODULE</text>
-<dimension x1="2" y1="10" x2="13" y2="10" x3="7.5" y3="18" textsize="1.27" layer="21" dtype="diameter"/>
+<circle x="6.604" y="1.397" radius="0.25" width="0.127" layer="21"/>
+<text x="1.27" y="4.826" size="0.6096" layer="21">MALE Conn</text>
+<text x="20.05" y="0.508" size="1.27" layer="25">VIA</text>
 </package>
 </packages>
 </library>
@@ -366,10 +301,10 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="deneyap_board_erkek_pcb_lib" package="PCB_BUTTON_MODULE" value="PCB_BUTTON_MODULE" x="24.13" y="36.83" smashed="yes"/>
-<element name="U$2" library="deneyap_board_erkek_pcb_lib" package="PCB_DISI_CONNECTOR" value="PCB_DISI_CONNECTORA" x="12.7" y="81.28" smashed="yes"/>
-<element name="U$3" library="deneyap_board_erkek_pcb_lib" package="PCB_ERKEK_CONNECTOR" value="PCB_ERKEK_CONNECTORA" x="13.97" y="66.04" smashed="yes"/>
-<element name="U$4" library="deneyap_board_erkek_pcb_lib" package="PCB_LDR_MODULE" value="PCB_LDR_MODULE" x="17.78" y="12.7" smashed="yes"/>
+<element name="U$1" library="deneyap_board_erkek_pcb_lib" package="PCB_ERKEK_CONNECTOR" value="PCB_ERKEK_CONNECTORA" x="1.27" y="-6.35" smashed="yes"/>
+<element name="U$2" library="deneyap_board_erkek_pcb_lib" package="PCB_ERKEK_CONNECTOR" value="PCB_ERKEK_CONNECTORA" x="1.27" y="-13.97" smashed="yes"/>
+<element name="U$3" library="deneyap_board_erkek_pcb_lib" package="PCB_ERKEK_CONNECTOR" value="PCB_ERKEK_CONNECTORA" x="1.27" y="-21.59" smashed="yes"/>
+<element name="U$4" library="deneyap_board_erkek_pcb_lib" package="PCB_ERKEK_CONNECTOR" value="PCB_ERKEK_CONNECTORA" x="1.27" y="-29.21" smashed="yes"/>
 </elements>
 <signals>
 </signals>
