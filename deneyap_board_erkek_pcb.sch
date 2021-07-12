@@ -75,51 +75,6 @@
 <libraries>
 <library name="deneyap_board_erkek_pcb_lib">
 <packages>
-<package name="PCB_BUTTON_MODULE">
-<wire x1="2" y1="0" x2="0" y2="2" width="0.127" layer="21" curve="-90"/>
-<wire x1="24" y1="0" x2="26" y2="2" width="0.127" layer="21" curve="90"/>
-<wire x1="26" y1="13" x2="24" y2="15" width="0.127" layer="21" curve="90"/>
-<wire x1="26" y1="13" x2="26" y2="2" width="0.127" layer="21"/>
-<wire x1="2" y1="0" x2="24" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="2" x2="0" y2="13" width="0.127" layer="21"/>
-<dimension x1="-2" y1="0" x2="-2" y2="15" x3="-14" y3="7.5" textsize="1.27" layer="21"/>
-<dimension x1="0" y1="-2" x2="26" y2="-2" x3="13" y3="-8" textsize="1.27" layer="21"/>
-<hole x="2" y="7.5" drill="3"/>
-<hole x="24" y="7.5" drill="3"/>
-<wire x1="0" y1="13" x2="2" y2="15" width="0.127" layer="21" curve="-90"/>
-<wire x1="2" y1="15" x2="24" y2="15" width="0.127" layer="21"/>
-<text x="6" y="1" size="1.27" layer="25">BUTTON_MODULE</text>
-<pad name="1" x="6.65" y="4.96" drill="0.8" shape="square"/>
-<pad name="4" x="6.65" y="10.04" drill="0.8"/>
-<pad name="2" x="19.35" y="4.96" drill="0.8"/>
-<pad name="3" x="19.35" y="10.04" drill="0.8"/>
-</package>
-<package name="PCB_DISI_CONNECTOR">
-<wire x1="2" y1="0" x2="0" y2="2" width="0.127" layer="21" curve="-90"/>
-<wire x1="0" y1="8" x2="2" y2="10" width="0.127" layer="21" curve="-90"/>
-<wire x1="33" y1="0" x2="35" y2="2" width="0.127" layer="21" curve="90"/>
-<wire x1="35" y1="8" x2="33" y2="10" width="0.127" layer="21" curve="90"/>
-<wire x1="2" y1="0" x2="33" y2="0" width="0.127" layer="21"/>
-<wire x1="35" y1="8" x2="35" y2="2" width="0.127" layer="21"/>
-<wire x1="33" y1="10" x2="2" y2="10" width="0.127" layer="21"/>
-<wire x1="0" y1="8" x2="0" y2="2" width="0.127" layer="21"/>
-<dimension x1="-7" y1="0" x2="-7" y2="10" x3="-9" y3="5" textsize="1.27" layer="21"/>
-<dimension x1="0" y1="11" x2="35" y2="11" x3="17.5" y3="16" textsize="1.27" layer="21"/>
-<hole x="2.5" y="5" drill="3"/>
-<hole x="32.5" y="5" drill="3"/>
-<pad name="1" x="12.42" y="3.73" drill="0.8" shape="square"/>
-<pad name="3" x="14.96" y="3.73" drill="0.8"/>
-<pad name="2" x="12.42" y="6.27" drill="0.8"/>
-<pad name="4" x="14.96" y="6.27" drill="0.8"/>
-<pad name="5" x="17.46" y="3.73" drill="0.8"/>
-<pad name="6" x="17.5" y="6.27" drill="0.8"/>
-<pad name="7" x="20.04" y="3.73" drill="0.8"/>
-<pad name="8" x="20.04" y="6.27" drill="0.8"/>
-<pad name="9" x="22.58" y="3.73" drill="0.8"/>
-<pad name="10" x="22.58" y="6.27" drill="0.8"/>
-<text x="5.5" y="4.5" size="0.8128" layer="25">DISI_CONN</text>
-<circle x="10" y="3.5" radius="0.5" width="0.127" layer="25"/>
-</package>
 <package name="PCB_ERKEK_CONNECTOR">
 <wire x1="0" y1="2" x2="2" y2="0" width="0.127" layer="21" curve="90"/>
 <wire x1="0" y1="2" x2="0" y2="4" width="0.127" layer="21"/>
@@ -129,8 +84,6 @@
 <wire x1="24" y1="0" x2="26" y2="2" width="0.127" layer="21" curve="90"/>
 <wire x1="26" y1="4" x2="24" y2="6" width="0.127" layer="21" curve="90"/>
 <wire x1="26" y1="4" x2="26" y2="2" width="0.127" layer="21"/>
-<dimension x1="-2.54" y1="0" x2="-2.54" y2="6.35" x3="-2.54" y3="3.175" textsize="1.27" layer="21"/>
-<dimension x1="0" y1="8" x2="26" y2="8" x3="13" y3="10" textsize="1.27" layer="21"/>
 <hole x="2" y="3" drill="3"/>
 <hole x="24" y="3" drill="3"/>
 <pad name="DO" x="13" y="1.73" drill="0.8"/>
@@ -143,58 +96,12 @@
 <pad name="4" x="10.46" y="4.3" drill="0.8"/>
 <pad name="8" x="15.54" y="4.3" drill="0.8"/>
 <pad name="10" x="18.08" y="4.3" drill="0.8"/>
-<dimension x1="2" y1="-2" x2="13" y2="-2" x3="7.5" y3="-7" textsize="1.27" layer="21"/>
-<circle x="5.08" y="1.27" radius="0.5" width="0.127" layer="21"/>
-<text x="3.81" y="3.81" size="0.4064" layer="21">PCB Module</text>
-</package>
-<package name="PCB_LDR_MODULE">
-<wire x1="2" y1="0" x2="0" y2="2" width="0.127" layer="21" curve="-90"/>
-<wire x1="0" y1="13" x2="2" y2="15" width="0.127" layer="21" curve="-90"/>
-<wire x1="24" y1="0" x2="26" y2="2" width="0.127" layer="21" curve="90"/>
-<wire x1="26" y1="13" x2="24" y2="15" width="0.127" layer="21" curve="90"/>
-<wire x1="2" y1="15" x2="24" y2="15" width="0.127" layer="21"/>
-<wire x1="26" y1="13" x2="26" y2="2" width="0.127" layer="21"/>
-<wire x1="2" y1="0" x2="24" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="2" x2="0" y2="13" width="0.127" layer="21"/>
-<dimension x1="-2" y1="0" x2="-2" y2="15" x3="-14" y3="7.5" textsize="1.27" layer="21"/>
-<dimension x1="0" y1="-2" x2="26" y2="-2" x3="13" y3="-8" textsize="1.27" layer="21"/>
-<hole x="2" y="7.5" drill="3"/>
-<hole x="24" y="7.5" drill="3"/>
-<pad name="1" x="11.73" y="7.5" drill="0.8" shape="square"/>
-<pad name="2" x="14.27" y="7.5" drill="0.8"/>
-<text x="7" y="4" size="1.27" layer="21">LDR_MODULE</text>
-<dimension x1="2" y1="10" x2="13" y2="10" x3="7.5" y3="18" textsize="1.27" layer="21" dtype="diameter"/>
+<circle x="6.604" y="1.397" radius="0.25" width="0.127" layer="21"/>
+<text x="1.27" y="4.826" size="0.6096" layer="21">MALE Conn</text>
+<text x="20.05" y="0.508" size="1.27" layer="25">VIA</text>
 </package>
 </packages>
 <symbols>
-<symbol name="PCB_BUTTON_MODULE">
-<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<pin name="1" x="-15.24" y="2.54" length="middle"/>
-<pin name="2" x="-15.24" y="-2.54" length="middle"/>
-<pin name="3" x="15.24" y="-2.54" length="middle" rot="R180"/>
-<pin name="4" x="15.24" y="2.54" length="middle" rot="R180"/>
-<text x="-10.16" y="10.16" size="1.27" layer="95">PCB_BUTTON</text>
-</symbol>
-<symbol name="PCB_DISI_CONNECTOR">
-<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="10.16" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-15.24" x2="-7.62" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-15.24" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
-<text x="-7.62" y="12.7" size="1.27" layer="95">PCB_DISI_CONN</text>
-<pin name="1" x="-12.7" y="7.62" length="middle"/>
-<pin name="2" x="-12.7" y="2.54" length="middle"/>
-<pin name="3" x="-12.7" y="-2.54" length="middle"/>
-<pin name="4" x="-12.7" y="-7.62" length="middle"/>
-<pin name="5" x="-12.7" y="-12.7" length="middle"/>
-<pin name="6" x="12.7" y="-12.7" length="middle" rot="R180"/>
-<pin name="7" x="12.7" y="-7.62" length="middle" rot="R180"/>
-<pin name="8" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<pin name="9" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="10" x="12.7" y="7.62" length="middle" rot="R180"/>
-</symbol>
 <symbol name="PCB_ERKEK_CONNECTOR">
 <wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
 <wire x1="7.62" y1="10.16" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
@@ -212,59 +119,8 @@
 <pin name="10" x="12.7" y="7.62" length="middle" rot="R180"/>
 <text x="-7.62" y="12.7" size="1.4224" layer="95">PCB_Erkek_con</text>
 </symbol>
-<symbol name="PCB_LDR_MODULE">
-<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
-<pin name="1" x="-10.16" y="0" length="middle"/>
-<pin name="2" x="10.16" y="0" length="middle" rot="R180"/>
-<text x="-2.54" y="2.54" size="0.8128" layer="95">LDR_Module</text>
-</symbol>
 </symbols>
 <devicesets>
-<deviceset name="PCB_BUTTON_MODULE">
-<gates>
-<gate name="G$1" symbol="PCB_BUTTON_MODULE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="PCB_BUTTON_MODULE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="PCB_DISI_CONNECTOR">
-<gates>
-<gate name="G$1" symbol="PCB_DISI_CONNECTOR" x="-7.62" y="7.62"/>
-</gates>
-<devices>
-<device name="A" package="PCB_DISI_CONNECTOR">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="PCB_ERKEK_CONNECTOR">
 <gates>
 <gate name="G$1" symbol="PCB_ERKEK_CONNECTOR" x="0" y="17.78"/>
@@ -289,22 +145,6 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="PCB_LDR_MODULE">
-<gates>
-<gate name="G$1" symbol="PCB_LDR_MODULE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="PCB_LDR_MODULE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -317,20 +157,20 @@
 </class>
 </classes>
 <parts>
-<part name="U$1" library="deneyap_board_erkek_pcb_lib" deviceset="PCB_BUTTON_MODULE" device=""/>
-<part name="U$2" library="deneyap_board_erkek_pcb_lib" deviceset="PCB_DISI_CONNECTOR" device="A"/>
+<part name="U$1" library="deneyap_board_erkek_pcb_lib" deviceset="PCB_ERKEK_CONNECTOR" device="A"/>
+<part name="U$2" library="deneyap_board_erkek_pcb_lib" deviceset="PCB_ERKEK_CONNECTOR" device="A"/>
 <part name="U$3" library="deneyap_board_erkek_pcb_lib" deviceset="PCB_ERKEK_CONNECTOR" device="A"/>
-<part name="U$4" library="deneyap_board_erkek_pcb_lib" deviceset="PCB_LDR_MODULE" device=""/>
+<part name="U$4" library="deneyap_board_erkek_pcb_lib" deviceset="PCB_ERKEK_CONNECTOR" device="A"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="33.02" y="76.2" smashed="yes"/>
-<instance part="U$2" gate="G$1" x="68.58" y="76.2" smashed="yes"/>
-<instance part="U$3" gate="G$1" x="30.48" y="48.26" smashed="yes"/>
-<instance part="U$4" gate="G$1" x="71.12" y="50.8" smashed="yes"/>
+<instance part="U$1" gate="G$1" x="5.08" y="53.34" smashed="yes"/>
+<instance part="U$2" gate="G$1" x="38.1" y="53.34" smashed="yes"/>
+<instance part="U$3" gate="G$1" x="71.12" y="53.34" smashed="yes"/>
+<instance part="U$4" gate="G$1" x="104.14" y="53.34" smashed="yes"/>
 </instances>
 <busses>
 </busses>
